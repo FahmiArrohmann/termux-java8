@@ -1,0 +1,27 @@
+# Build artifacts
+build.log
+*.log
+hs_err_pid*.log
+replay_pid*.log
+
+# Build output
+jdkout/
+jreout/
+dizout/
+dummy_libs/
+termux-elf-cleaner/
+openjdk/
+android-ndk-r10e/
+android-ndk-*.zip
+freetype-*/
+cups-*/
+*.tar.gz
+*.tar.xz
+*.o
+*.so
+a.out
+
+# Editor
+.vscode/
+*.swp
+*~
