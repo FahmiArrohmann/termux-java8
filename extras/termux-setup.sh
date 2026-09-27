@@ -29,12 +29,10 @@ mkdir -p ~/.local/lib
 if command -v clang >/dev/null 2>&1; then
     clang -shared -fPIC "$SCRIPT_DIR/libnotag.c" -o ~/.local/lib/libnotag.so
 else
-    echo "[!] clang tidak ada. Jalankan: pkg install clang"
+    echo "[!] clang not instaled. Install: pkg install clang"
 fi
 
 echo "[*] Done!"
-echo ""
-echo "Restart Termux, lalu jalankan: java -version"
-echo ""
-echo "Untuk server MC, jalankan dengan:"
-echo "  LD_PRELOAD=\$HOME/.local/lib/libnotag.so java -jar server.jar nogui"
+echo "congratulation you have installed java 8"
+echo "Restart Termux, and type:java -version"
+
