@@ -1,6 +1,6 @@
 # Termux Java 8 (OpenJDK 8 for Android aarch64)
 
-## Prebuilt OpenJDK 8u512 for Termux, compiled specifically for modern Android (aarch64). No proot, no root — runs natively in Termux.
+## Prebuilt OpenJDK 8u512 for Termux, compiled specifically for modern Android (aarch64). No proot, no root — runs natively in Termux !
 
 ### Designed to run Minecraft Forge 1.12.2 server on Android devices.
 Features:
@@ -35,7 +35,7 @@ cd termux-java8
 
 3. Download JDK:
 
-open Releases and copylink -> https://github.com/FahmiArrohmann/termux-java8/releases
+open  the [Releases](https://github.com/FahmiArrohmann/termux-java8/releases) page and copy the download URL.
 ```bash
 wget "url"
 ```
@@ -64,7 +64,7 @@ Termux usage: [docs/TERMUX.md](docs/TERMUX.md) for details.
 
 ## Known Issues
 
-    "No monotonic clock" warning — normal on Android, not fatal.
+    "No monotonic clock" warning has been fixed
 
     Requires Android 10+ and aarch64. No support for older Android or 32-bit.
 
@@ -79,5 +79,6 @@ Termux usage: [docs/TERMUX.md](docs/TERMUX.md) for details.
 
 ## License
 
-GPLv2 with Classpath Exception. ## License
+GPLv2 with Classpath Exception.
+
 See [LICENSE](LICENSE)
